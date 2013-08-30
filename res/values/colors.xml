@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="firstFaceBox">#80FFFF</color>
+    <color name="secondFaceBox">#80FF80</color>
+    <color name="thirdFaceBox">#FFFF80</color>
+    <color name="forthFaceBox">#40FF80</color>
+    
+</resources>

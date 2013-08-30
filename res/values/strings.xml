@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SelfCameraActivity!</string>
+    <string name="app_name">SelfCamera</string>
+    <string name="ErrorCameraNotOpen">"Camera isn\'t　open"</string>
+    <string name="ErrorCantOpenCamera">"Can\'t open camera"</string>
+    <string name="ErrorCantSetPreviewDisplay">"Can\'t set camera preview screen"</string>
+    <string name="ErrorCantStartPreview">"Can\'t start preview"</string>
+    <string name="ErrorLoadCascadeFile1">"Can\'t read face template data"</string>
+    <string name="ErrorInitFaceDetection">"Can\'t init face detector"</string>
+   	<string name="AutoFocusing">"Now focusing..."</string>
+	<string name="AutoFocusNG">"Can\'t focus"</string>
+	<string name="PictureSaveNG">"Can\'t save photo"</string>
+	<string name="PictureFolderMakeNG">"Can\'t create data folder"</string>
+	<string name="NeonNotAvailable">"This phone doesn\'t have NEON. Stop face detection."</string>
+	<string name="OpenCVEngineName">"Engine 1"</string>
+	<string name="AndroidEngineName">"Engine 2"</string>
+	<string name="OpenCVEngineEntryValue">"opencv"</string>
+	<string name="AndroidEngineEntryValue">"android"</string>
+	
+	<!-- Voice -->
+	<string name="female_voice_entry_value">"female"</string>
+	<string name="male_voice_entry_value">"male"</string>
+
+	<string name="female_voice_name">"Female"</string>
+	<string name="female_voice_comment">" "</string>
+	<string name="male_voice_name">"Male"</string>
+	<string name="male_voice_comment">" "</string>
+
+	<!-- Pic Viewer -->
+    <string name="pic_viewer_name">Viewer</string>
+    <string name="pic_tmp_file">pic_tmp_file</string>
+    <string name="pic_width">pic_width</string>
+    <string name="pic_height">pic_height</string>
+ 	<string name="pic_save">"Save"</string>
+	<string name="pic_delete">"Delete"</string>
+	<string name="pic_load_error">"Can\'t read saved photo"</string>
+	<string name="pic_pref_filename">pic_pref_filename</string>
+	<string name="pic_pref">pic_pref</string>
+	<string name="pic_gallery_set_error">"Can\'t register photo to Gallery"</string>
+	
+	<!-- プログレスダイアログ -->
+	<string name="progress_title_opening_camera">"Now loading"</string>	
+	<string name="progress_title_wait">"Wait a minute"</string>	
+	<string name="progress_message_wait">"Wait a minute"</string>
+	<string name="camera_open_aborted">"Abort loading camera"</string>
+	<!-- gallery -->
+	<string name="pic_gallery_img_open_error">"Can\'t load photo in Gallery"</string>
+	
+	
+    <!-- ダイアログ -->
+    <string name="ButtonOK">OK</string>
+    <string name="ButtonCancel">"Cancel"</string>
+   	<string name="dialog_picture_size_title">"Picture size"</string>
+   	<string name="dialog_flash_mode_title">"Flash mode"</string>
+   	<string name="dialog_white_balance_title">"White Balance"</string>
+    <string name="dialog_angle_title">"Number of face"</string>
+     	 	
+    
+   	<!-- FaceMark -->
+    <string name="face_mark_single_entry_value">"1"</string>
+    <string name="face_mark_double_entry_value">"2"</string>
+
+    <string name="face_mark_single_name">"One"</string>
+    <string name="face_mark_double_name">"Two"</string>	
+   	
+    <!-- option menu -->
+    <string name="OptionSelfCameraSetting">"SelfCamera Setting"</string>
+    <string name="OptionSetting">"Setting"</string>
+    <string name="OptionGallery">"Gallery"</string>
+    
+   	<!-- SharedPreference Key(CameraSetting) -->
+	<string name="mCameraPos">mCameraPos</string>	
+	<string name="mAntibanding">mAntibanding</string>
+	<string name="mColorEffect">mColorEffect</string>
+	<string name="mFlashMode">mFlashMode</string>	
+	<string name="mFocusMode">mFocusMode</string>	
+	<string name="mJpegThumbnailSize">mJpegThumbnailSize</string>	
+	<string name="mPictureFormat">mPictureFormat</string>	
+	<string name="mPictureSize">mPictureSize</string>	
+	<string name="mPreviewFormat">mPreviewFormat</string>	
+	<string name="mPreviewFpsRange">mPreviewFpsRange</string>	
+	<string name="mPreviewFrameRate">mPreviewFrameRate</string>	
+	<string name="mPreviewSize">mPreviewSize</string>	
+	<string name="mSceneMode">mSceneMode</string>	
+	<string name="mVideoSize">mVideoSize</string>	
+	<string name="mWhiteBalance">mWhiteBalance</string>	
+	<string name="mZoom">mZoom</string>	
+	<string name="mJpegQuality">mJpegQuality</string>	
+	<string name="mExposurecompensation">mExposurecompensation</string>	
+
+   	<!-- SharedPreference Key(SelfCameraSetting) -->
+	<string name="mAngle">mAngle</string>	
+	<string name="mShutter">mShutter</string>	
+	<string name="mShutterTouch">mShutterTouch</string>	
+	<string name="mShutterOK">mShutterOK</string>	
+	<string name="mShutterVolPlus">mShutterVolPlus</string>	
+	<string name="mShutterVolMinus">mShutterVolMinus</string>	
+	<string name="mShutterSearch">mShutterSearch</string>	
+	<string name="mShutterFramed">mShutterFramed</string>	
+	<string name="mVoiceName">mVoiceName</string>
+	<string name="mEngineName">mEngineName</string>
+	
+	<!-- SelfCamera Setting -->
+    <string name="self_camera_setting_name">"SelfCamera Setting"</string>
+
+    <string name="extra_angle_entry_value_list">extra_angle_entry_value_list</string>
+    <string name="extra_angle_name_list">extra_angle_name_list</string>
+    <string name="self_camera_setting_dialog_title_angle">"Choose number of face"</string>
+    <string name="self_camera_setting_title_angle">"Number of face"</string>
+    <string name="self_camera_setting_summary_angle">"Choose number of face"</string>
+
+    <string name="self_camera_setting_title_shutter">"Shutter Button"</string>
+    <string name="self_camera_setting_summary_shutter">"Choose shutter button"</string>
+    <string name="self_camera_setting_shutter_touch">"Screen touch"</string>
+    <string name="self_camera_setting_shutter_OK">"OK button"</string>
+    <string name="self_camera_setting_shutter_vol_plus">"Volume(+)"</string>
+    <string name="self_camera_setting_shutter_vol_minus">"Volume(-)"</string>
+    <string name="self_camera_setting_shutter_search">"Search button"</string>
+    <string name="self_camera_setting_shutter_framed">"On coming to good position"</string>
+    
+	<string name="self_camera_setting_title_voice_name">"Voice"</string>
+	<string name="self_camera_setting_summary_voice_name">"Choose message voice"</string>
+	<string name="self_camera_setting_dialog_title_voice_name">"Choose voice"</string>
+
+    <string name="extra_voice_entry_value_list">extra_voice_entry_value_list</string>
+    <string name="extra_voice_name_list">extra_voice_name_list</string>
+    <string name="extra_voice_comment_list">extra_voice_comment_list</string>
+    <string name="extra_voice_name_list">extra_voice_name_list</string>
+        
+	<string name="self_camera_setting_title_engine_name">"Face detection engine"</string>
+	<string name="self_camera_setting_summary_engine_name">"Choose face detection engine"</string>
+	<string name="self_camera_setting_dialog_title_engine_name">"Choose face detection engine"</string>
+    <string name="extra_engine_name">extra_engine_name</string>
+    <string name="extra_engine_entry_value">extra_engine_entry_value</string>
+
+
+    <!-- Camera Setting  -->
+    <string name="setting_info">setting_info</string>
+	<string name="setting_category_title_picture">"Image setting"</string>
+	<string name="setting_category_title_quality">"Quality setting"</string>
+	<string name="setting_category_title_imaging">"Imaging setting"</string>
+
+	<string name="setting_no_info_pref_title">"No option"</string>
+	
+    <string name="setting_name">"Imaging setting"</string>
+    <string name="anti_banding_dialog_title">"Anti-banding"</string>
+    <string name="anti_banding_title">"Anti-banding"</string>
+    <string name="anti_banding_summary">"Choose frequency"</string>
+    <string name="anti_banding_50Hz">"50Hz"</string>
+    <string name="anti_banding_60Hz">"60Hz"</string>
+    <string name="anti_banding_auto">"Auto"</string>
+    <string name="anti_banding_off">"Off"</string>
+    <string name="anti_banding_etc">"Phone specific"</string>
+	
+	<string name="color_effect_dialog_title">"Filter"</string>
+	<string name="color_effect_title">"Filter"</string>
+	<string name="color_effect_summary">"Choose filter"</string>
+	<string name="color_effect_aqua">"Aqua"</string>
+	<string name="color_effect_blackboard">"Blackboard"</string>
+	<string name="color_effect_mono">"Mono"</string>
+	<string name="color_effect_negative">"Negative"</string>
+	<string name="color_effect_none">"Off"</string>
+	<string name="color_effect_posterize">"Posterize"</string>
+	<string name="color_effect_sepia">"Sepia"</string>
+	<string name="color_effect_solarize">"Solarize"</string>
+	<string name="color_effect_whiteboard">"Whiteboard"</string>
+    <string name="color_effect_etc">"Phone specific"</string>
+
+	<string name="flash_mode_dialog_title">"Flash"</string>
+	<string name="flash_mode_title">"Flash"</string>
+	<string name="flash_mode_summary">"Choose flash function"</string>
+	<string name="flash_mode_auto">"Auto"</string>
+	<string name="flash_mode_on">"On"</string>
+	<string name="flash_mode_off">"Off"</string>
+	<string name="flash_mode_torch">"Torch"</string>
+	<string name="flash_mode_red_eye">"Red eye"</string>
+    <string name="flash_mode_etc">"Phone specific"</string>
+
+	<string name="focus_mode_dialog_title">"Focus"</string>
+	<string name="focus_mode_title">"Focus"</string>
+	<string name="focus_mode_summary">"Choose focus"</string>
+	<string name="focus_mode_auto">"Auto"</string>
+	<string name="focus_mode_continuous_video">"Continuous Video"</string>
+	<string name="focus_mode_continuous_pic">"Continuous"</string>
+	    	<string name="focus_mode_EDOF">"EDOF"</string>
+	<string name="focus_mode_fixed">"Fixed"</string>
+	<string name="focus_mode_infinity">"Infinity"</string>
+	<string name="focus_mode_macro">"Macro"</string>
+    <string name="focus_mode_etc">"Phone specific"</string>
+
+	<string name="scene_mode_dialog_title">"Scene mode"</string>
+	<string name="scene_mode_title">"Scene mode"</string>
+	<string name="scene_mode_summary">"Choose scene mode"</string>
+	<string name="scene_mode_action">"Action"</string>
+	<string name="scene_mode_auto">"Auto"</string>
+	<string name="scene_mode_barcode">"Barcode"</string>
+	<string name="scene_mode_beach">"Beach"</string>
+	<string name="scene_mode_candle_light">"Candle light"</string>
+	<string name="scene_mode_fireworks">"Fireworks"</string>
+	<string name="scene_mode_landscape">"Landscape"</string>
+	<string name="scene_mode_night">"Night"</string>
+	<string name="scene_mode_night_portrait">"Night portrait"</string>
+	<string name="scene_mode_party">"Party"</string>
+	<string name="scene_mode_portrait">"Portrait"</string>
+	<string name="scene_mode_snow">"Snow"</string>
+	<string name="scene_mode_sports">"Sports"</string>
+	<string name="scene_mode_steadyphoto">"Steady photo"</string>
+	<string name="scene_mode_sunset">"Sunset"</string>
+	<string name="scene_mode_theatre">"Theatre"</string>
+	<string name="scene_mode_etc">"Phone specific"</string>
+	
+	<string name="white_balance_dialog_title">"White balance"</string>
+	<string name="white_balance_title">"White balance"</string>
+	<string name="white_balance_summary">"Choose white balance"</string>
+	<string name="white_balance_auto">"Auto"</string>
+	<string name="white_balance_cloudy_daylight">"Cloudy daylight"</string>
+	<string name="white_balance_daylight">"Daylight"</string>
+	<string name="white_balance_fluoresent">"fluorescent"</string>
+	<string name="white_balance_incandesent">"Incandesent"</string>
+	<string name="white_balance_shade">"Shade"</string>
+	<string name="white_balance_twilight">"Twilight"</string>
+	<string name="white_balance_warm_fluorecent">"Warm fluorescent"</string>
+	<string name="white_balance_etc">"Phone specific"</string>
+	
+	<string name="picture_size_dialog_title">"Picture size"</string>
+	<string name="picture_size_title">"Picture size"</string>
+	<string name="picture_size_summary">"Choose picture size"</string>
+	
+	<string name="jpeg_thumbnail_size_dialog_title">"Thumbnail size"</string>
+	<string name="jpeg_thumbnail_size_title">"Thumbnail size"</string>
+	<string name="jpeg_thumbnail_size_summary">"Choose thumbnail size"</string>
+	
+	<string name="video_size_dialog_title">"Video size"</string>
+	<string name="video_size_title">"Video size"</string>
+	<string name="video_size_summary">"Choose video size"</string>
+
+	<string name="zoom_dialog_title">"Zoom"</string>
+	<string name="zoom_title">"Zoom"</string>
+	<string name="zoom_summary">"Choose zoom"</string>
+	
+	<string name="exposure_compensation_dialog_title">"Exposure compensation"</string>
+	<string name="exposure_compensation_title">Exposure compensation"</string>
+	<string name="exposure_compensation_summary">"Correct brightness"</string>
+	
+	<string name="jpeg_quality_dialog_title">"Image quality"</string>
+	<string name="jpeg_quality_title">"Image quality"</string>
+	<string name="jpeg_quality_summary">"Choose compression ratio"</string>
+
+	
+
+
+	<!-- SDカード関係 -->
+	<string name="data_folder_name">SLFCM</string>
+	<string name="mFolderNumber">mFolderNumber</string>
+	<string name="mPictureNumber">mPictureNumber</string>
+	
+ 	<string name="SDCardMounted">SD card OK.</string>
+	<string name="SDCardReadOnly">SD card is read only.</string>
+	<string name="SDCardRemoved">No SD card.</string>
+	<string name="SDCardShared">SD card is mounted to PC.</string>
+	<string name="SDCardBadRemoval">SD card is removed before unmount.</string>
+	<string name="SDCardChecking">Checking SD card.</string>
+	<string name="SDCardNOFS">File system of SD card is not supported.</string>
+	<string name="SDCardUnMountable">Can\'t mount SD card.</string>
+	<string name="SDCardUnMounted">Can\'t mount SD card.</string>
+	<string name="SDCardUnknownError">Can\'t use SD card.</string>
+</resources>

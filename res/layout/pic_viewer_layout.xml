@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+   
+	android:id="@+id/PicViewRootFrameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout
+ 		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+		<ImageView
+			android:id="@+id/PictureViewMain"
+			android:layout_width="fill_parent"
+   			android:layout_height="fill_parent"/>
+   	</AbsoluteLayout>
+	<LinearLayout
+		android:orientation="vertical" 
+    	android:layout_width="fill_parent"
+   	 	android:layout_height="fill_parent">
+   	 	<View 
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:visibility="invisible" 
+			android:layout_weight="1"/>
+    	<LinearLayout 
+			android:id="@+id/PicViewBottom" 
+			android:layout_height="wrap_content"
+			android:layout_width= "fill_parent" 
+  			android:orientation="horizontal" 
+  			android:background="#80000000"
+			android:layout_alignParentBottom="true" android:gravity="right">
+			<Button 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:id="@+id/PicViewButtonOK"
+				android:text="@string/pic_save" 
+				android:textColor="#FFFFFF"
+				android:background="@drawable/btn_ic_review_done"
+				android:layout_centerInParent="true"
+				android:gravity="bottom|center_horizontal" />
+			<Button 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:id="@+id/PicViewButtonCancel"
+				android:text="@string/pic_delete" 
+				android:background="@drawable/btn_ic_review_cancel"
+				android:textColor="#FFFFFF"
+				android:layout_toRightOf="@+id/PicViewButtonOK"
+				android:layout_marginLeft="10dip"
+				android:gravity="bottom|center_horizontal"/>
+	       <com.google.ads.AdView 
+                android:id="@+id/ad" 
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="xxxxxxxx"/>
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

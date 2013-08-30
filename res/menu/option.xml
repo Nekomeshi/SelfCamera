@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+ 	xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item 
+  		android:id="@+id/menu_sefl_camera_setting"
+		android:title="@string/OptionSelfCameraSetting"
+		android:icon="@android:drawable/ic_menu_preferences" 
+		android:enabled="true"
+		android:visible="true"/>
+  	<item 
+  		android:id="@+id/menu_setting"
+		android:title="@string/OptionSetting"
+		android:icon="@android:drawable/ic_menu_preferences" 
+		android:enabled="true"
+		android:visible="true"/>
+  	<item 
+  		android:id="@+id/menu_gallery"
+		android:title="@string/OptionGallery"
+		android:icon="@android:drawable/ic_menu_gallery" 
+		android:enabled="true"
+		android:visible="true"/>
+
+</menu>

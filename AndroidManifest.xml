@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.nekomeshi312.selfcamera"
+      android:versionName="0.586" 
+      android:versionCode="31"
+      android:installLocation="auto">
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+  	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  
+	<uses-feature android:name="android.hardware.camera"/>
+	<uses-feature android:name="android.hardware.camera.autofocus"/>
+	
+    <application 
+    	android:icon="@drawable/icon" 
+    	android:label="@string/app_name" 
+    	android:debuggable="false">
+        <activity android:name=".SelfCameraActivity"
+        	android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+        	android:name="CameraSettingActivity" 
+        	android:label="@string/setting_name">
+        </activity>
+        <activity
+         	android:name="SelfCameraSettingActivity" 
+        	android:label="@string/self_camera_setting_name">
+        </activity>
+        <activity 
+        	android:name="PictureViewerActivity"
+        	android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        	android:label="@string/pic_viewer_name">
+        </activity>
+        <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation" />
+
+        <!-- The application's publisher ID assigned by AdMob -->
+        <meta-data android:value="xxxxxxx" android:name="ADMOB_PUBLISHER_ID" />
+        <!-- use a separate publisher id here to aid in tracking intersitial statistics -->
+        <meta-data android:value="xxxxxxx" android:name="ADMOB_INTERSTITIAL_PUBLISHER_ID" />
+    </application>
+</manifest>

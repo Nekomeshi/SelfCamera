@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SelfCameraActivity!</string>
+    <string name="app_name">SelfCamera</string>
+    <string name="ErrorCameraNotOpen">カメラがオープンされていません</string>
+    <string name="ErrorCantOpenCamera">カメラをオープンできませんでした</string>
+    <string name="ErrorCantSetPreviewDisplay">カメラをプレビュー画面を設定できませんでした</string>
+    <string name="ErrorCantStartPreview">カメラのプレビューを開始できませんでした</string>
+    <string name="ErrorLoadCascadeFile1">顔認識テンプレートの読み込みに失敗しました</string>
+    <string name="ErrorInitFaceDetection">顔認識の初期化に失敗しました</string>
+   	<string name="AutoFocusing">ピント合わせ中です・・・</string>
+	<string name="AutoFocusNG">ピント合わせができませんでした</string>
+	<string name="PictureSaveNG">写真を保存できませんでした。</string>
+	<string name="PictureFolderMakeNG">データフォルダを作成できませんでした。</string>
+	<string name="NeonNotAvailable">端末がNEON命令に対応していないため、顔認識を行いません</string>
+	<string name="OpenCVEngineName">認識エンジン１</string>
+	<string name="AndroidEngineName">認識エンジン２</string>
+	<string name="OpenCVEngineEntryValue">"opencv"</string>
+	<string name="AndroidEngineEntryValue">"android"</string>
+
+	<!-- Voice -->
+	<string name="female_voice_entry_value">"female"</string>
+	<string name="male_voice_entry_value">"male"</string>
+		
+	<string name="female_voice_name">女性</string>
+	<string name="female_voice_comment">この音声ファイルはOpen JTalkで作成されています</string>
+	<string name="male_voice_name">男性</string>
+	<string name="male_voice_comment">この音声ファイルはOpen JTalkで作成されています</string>
+
+	<!-- Pic Viewer -->
+    <string name="pic_viewer_name">Viewer</string>
+    <string name="pic_tmp_file">pic_tmp_file</string>
+    <string name="pic_width">pic_width</string>
+    <string name="pic_height">pic_height</string>
+ 	<string name="pic_save">保存する</string>
+	<string name="pic_delete">破棄する</string>
+	<string name="pic_load_error">撮影した写真が読み込めませんでした</string>
+	<string name="pic_pref_filename">pic_pref_filename</string>
+	<string name="pic_pref">pic_pref</string>
+	<string name="pic_gallery_set_error">ギャラリーに写真を登録できませんでした</string>
+	
+	<!-- プログレスダイアログ -->
+	<string name="progress_title_opening_camera">カメラを準備中です</string>	
+	<string name="progress_title_wait">しばらくお待ちください</string>	
+	<string name="progress_message_wait">しばらくお待ちください</string>
+	<string name="camera_open_aborted">カメラの起動を中断しました</string>
+	<!-- gallery -->
+	<string name="pic_gallery_img_open_error">ギャラリーで画像を表示できませんでした</string>
+	
+	
+    <!-- ダイアログ -->
+    <string name="ButtonOK">OK</string>
+    <string name="ButtonCancel">キャンセル</string>
+   	<string name="dialog_picture_size_title">撮影サイズ</string>
+   	<string name="dialog_flash_mode_title">フラッシュモード</string>
+   	<string name="dialog_white_balance_title">ホワイトバランス</string>
+    <string name="dialog_angle_title">撮影する人数</string>
+     	 	
+    
+   	<!-- FaceMark -->
+    <string name="face_mark_single_entry_value">"1"</string>
+    <string name="face_mark_double_entry_value">"2"</string>
+       	
+    <string name="face_mark_single_name">一人</string>
+    <string name="face_mark_double_name">二人</string>	
+   	
+    <!-- option menu -->
+    <string name="OptionSelfCameraSetting">セルフカメラ設定</string>
+    <string name="OptionSetting">撮影設定</string>
+    <string name="OptionGallery">ギャラリー</string>
+    
+   	<!-- SharedPreference Key(CameraSetting) -->
+	<string name="mCameraPos">mCameraPos</string>	
+	<string name="mAntibanding">mAntibanding</string>
+	<string name="mColorEffect">mColorEffect</string>
+	<string name="mFlashMode">mFlashMode</string>	
+	<string name="mFocusMode">mFocusMode</string>	
+	<string name="mJpegThumbnailSize">mJpegThumbnailSize</string>	
+	<string name="mPictureFormat">mPictureFormat</string>	
+	<string name="mPictureSize">mPictureSize</string>	
+	<string name="mPreviewFormat">mPreviewFormat</string>	
+	<string name="mPreviewFpsRange">mPreviewFpsRange</string>	
+	<string name="mPreviewFrameRate">mPreviewFrameRate</string>	
+	<string name="mPreviewSize">mPreviewSize</string>	
+	<string name="mSceneMode">mSceneMode</string>	
+	<string name="mVideoSize">mVideoSize</string>	
+	<string name="mWhiteBalance">mWhiteBalance</string>	
+	<string name="mZoom">mZoom</string>	
+	<string name="mJpegQuality">mJpegQuality</string>	
+	<string name="mExposurecompensation">mExposurecompensation</string>	
+
+   	<!-- SharedPreference Key(SelfCameraSetting) -->
+	<string name="mAngle">mAngle</string>	
+	<string name="mShutter">mShutter</string>	
+	<string name="mShutterTouch">mShutterTouch</string>	
+	<string name="mShutterOK">mShutterOK</string>	
+	<string name="mShutterVolPlus">mShutterVolPlus</string>	
+	<string name="mShutterVolMinus">mShutterVolMinus</string>	
+	<string name="mShutterSearch">mShutterSearch</string>	
+	<string name="mShutterFramed">mShutterFramed</string>	
+	<string name="mVoiceName">mVoiceName</string>
+	<string name="mEngineName">mEngineName</string>
+	
+	<!-- SelfCamera Setting -->
+    <string name="self_camera_setting_name">セルフカメラ設定</string>
+
+    <string name="extra_angle_entry_value_list">extra_angle_entry_value_list</string>
+    <string name="extra_angle_name_list">extra_angle_name_list</string>
+    <string name="self_camera_setting_dialog_title_angle">被写体の人数を指定してください</string>
+    <string name="self_camera_setting_title_angle">人数</string>
+    <string name="self_camera_setting_summary_angle">被写体の人数を指定します</string>
+
+    <string name="self_camera_setting_title_shutter">シャッターボタン</string>
+    <string name="self_camera_setting_summary_shutter">シャッターボタンの組み合わせを選択します</string>
+    <string name="self_camera_setting_shutter_touch">画面タッチ</string>
+    <string name="self_camera_setting_shutter_OK">OKボタン</string>
+    <string name="self_camera_setting_shutter_vol_plus">ボリューム（＋）</string>
+    <string name="self_camera_setting_shutter_vol_minus">ボリューム（－）</string>
+    <string name="self_camera_setting_shutter_search">サーチボタン</string>
+    <string name="self_camera_setting_shutter_framed">良い位置に来たとき</string>
+    
+	<string name="self_camera_setting_title_voice_name">音声</string>
+	<string name="self_camera_setting_summary_voice_name">この音声はOpen JTalkで合成されています</string>
+	<string name="self_camera_setting_dialog_title_voice_name">お知らせする音声を選択してください</string>
+
+    <string name="extra_voice_entry_value_list">extra_voice_entry_value_list</string>
+    <string name="extra_voice_name_list">extra_voice_name_list</string>
+    <string name="extra_voice_comment_list">extra_voice_comment_list</string>
+    <string name="extra_voice_name_list">extra_voice_name_list</string>
+        
+	<string name="self_camera_setting_title_engine_name">認識エンジン</string>
+	<string name="self_camera_setting_summary_engine_name">顔認識エンジンを選択します</string>
+	<string name="self_camera_setting_dialog_title_engine_name">顔認識エンジンを選択してください</string>
+    <string name="extra_engine_name">extra_engine_name</string>
+    <string name="extra_engine_entry_value">extra_engine_entry_value</string>
+
+
+    <!-- Camera Setting  -->
+    <string name="setting_info">setting_info</string>
+	<string name="setting_category_title_picture">画像設定</string>
+	<string name="setting_category_title_quality">画質設定</string>
+	<string name="setting_category_title_imaging">撮影設定</string>
+
+	<string name="setting_no_info_pref_title">設定項目はありません</string>
+	
+    <string name="setting_name">撮影設定</string>
+    <string name="anti_banding_dialog_title">フリッカー軽減設定</string>
+    <string name="anti_banding_title">フリッカー軽減設定</string>
+    <string name="anti_banding_summary">チラツキのもととなる周波数を選択します</string>
+    <string name="anti_banding_50Hz">50Hz</string>
+    <string name="anti_banding_60Hz">60Hz</string>
+    <string name="anti_banding_auto">自動</string>
+    <string name="anti_banding_off">なし</string>
+    <string name="anti_banding_etc">機種固有</string>
+	
+	<string name="color_effect_dialog_title">フィルタ</string>
+	<string name="color_effect_title">フィルタ</string>
+	<string name="color_effect_summary">フィルタを設定します</string>
+	<string name="color_effect_aqua">アクア</string>
+	<string name="color_effect_blackboard">黒板</string>
+	<string name="color_effect_mono">白黒</string>
+	<string name="color_effect_negative">色調反転</string>
+	<string name="color_effect_none">なし</string>
+	<string name="color_effect_posterize">ポスタライズ</string>
+	<string name="color_effect_sepia">セピア</string>
+	<string name="color_effect_solarize">ソラライズ</string>
+	<string name="color_effect_whiteboard">ホワイトボード</string>
+    <string name="color_effect_etc">機種固有</string>
+
+	<string name="flash_mode_dialog_title">フラッシュ</string>
+	<string name="flash_mode_title">フラッシュ</string>
+	<string name="flash_mode_summary">フラッシュの発光方法を選択します</string>
+	<string name="flash_mode_auto">自動</string>
+	<string name="flash_mode_on">強制発光</string>
+	<string name="flash_mode_off">発光しない</string>
+	<string name="flash_mode_torch">プレビュー発光</string>
+	<string name="flash_mode_red_eye">赤目防止</string>
+    <string name="flash_mode_etc">機種固有</string>
+
+	<string name="focus_mode_dialog_title">ピント調節</string>
+	<string name="focus_mode_title">ピント調節</string>
+	<string name="focus_mode_summary">ピント調節の方法を選択します</string>
+	<string name="focus_mode_auto">オートフォーカス</string>
+	<string name="focus_mode_continuous_video">コンティニュアスビデオ</string>
+	<string name="focus_mode_continuous_pic">コンティニュアス</string>	    
+   	<string name="focus_mode_EDOF">深度優先</string>
+	<string name="focus_mode_fixed">固定</string>
+	<string name="focus_mode_infinity">無限遠</string>
+	<string name="focus_mode_macro">マクロ</string>
+    <string name="focus_mode_etc">機種固有</string>
+
+	<string name="scene_mode_dialog_title">シーンモード</string>
+	<string name="scene_mode_title">シーンモード</string>
+	<string name="scene_mode_summary">撮影シーンに適した撮影方法を選択します</string>
+	<string name="scene_mode_action">アクション</string>
+	<string name="scene_mode_auto">なし</string>
+	<string name="scene_mode_barcode">バーコード</string>
+	<string name="scene_mode_beach">ビーチ</string>
+	<string name="scene_mode_candle_light">キャンドルライト</string>
+	<string name="scene_mode_fireworks">花火</string>
+	<string name="scene_mode_landscape">風景</string>
+	<string name="scene_mode_night">夜景</string>
+	<string name="scene_mode_night_portrait">ポートレート(夜)</string>
+	<string name="scene_mode_party">パーティ</string>
+	<string name="scene_mode_portrait">ポートレート</string>
+	<string name="scene_mode_snow">雪景</string>
+	<string name="scene_mode_sports">スポーツ</string>
+	<string name="scene_mode_steadyphoto">手ぶれ軽減</string>
+	<string name="scene_mode_sunset">夕景</string>
+	<string name="scene_mode_theatre">シアター</string>
+	<string name="scene_mode_etc">機種固有</string>
+	
+	<string name="white_balance_dialog_title">ホワイトバランス</string>
+	<string name="white_balance_title">ホワイトバランス</string>
+	<string name="white_balance_summary">光源の設定をします</string>
+	<string name="white_balance_auto">自動</string>
+	<string name="white_balance_cloudy_daylight">雲天</string>
+	<string name="white_balance_daylight">晴天</string>
+	<string name="white_balance_fluoresent">蛍光灯</string>
+	<string name="white_balance_incandesent">白熱灯</string>
+	<string name="white_balance_shade">日陰</string>
+	<string name="white_balance_twilight">夕日</string>
+	<string name="white_balance_warm_fluorecent">蛍光灯(電球色)</string>
+	<string name="white_balance_etc">機種固有</string>
+	
+	<string name="picture_size_dialog_title">撮影サイズ</string>
+	<string name="picture_size_title">撮影サイズ</string>
+	<string name="picture_size_summary">画像のサイズを選択します</string>
+	
+	<string name="jpeg_thumbnail_size_dialog_title">サムネイルサイズ</string>
+	<string name="jpeg_thumbnail_size_title">サムネイルサイズ</string>
+	<string name="jpeg_thumbnail_size_summary">Jpegに埋め込むサムネイル画像のサイズを選択します</string>
+	
+	<string name="video_size_dialog_title">ビデオサイズ</string>
+	<string name="video_size_title">ビデオサイズ</string>
+	<string name="video_size_summary">ビデオの拡大率を選択します</string>
+
+	<string name="zoom_dialog_title">ズーム</string>
+	<string name="zoom_title">ズーム</string>
+	<string name="zoom_summary">写真の拡大率を選択します</string>
+	
+	<string name="exposure_compensation_dialog_title">露出補正</string>
+	<string name="exposure_compensation_title">露出補正</string>
+	<string name="exposure_compensation_summary">写真の明るさを変更します</string>
+	
+	<string name="jpeg_quality_dialog_title">画質</string>
+	<string name="jpeg_quality_title">画質</string>
+	<string name="jpeg_quality_summary">画像の圧縮率を設定します</string>
+
+	
+
+
+	<!-- SDカード関係 -->
+	<string name="data_folder_name">SLFCM</string>
+	<string name="mFolderNumber">mFolderNumber</string>
+	<string name="mPictureNumber">mPictureNumber</string>
+	
+	<string name="SDCardMounted">SDカードは読み書き可能です。</string>
+	<string name="SDCardReadOnly">SDカードは読み取り専用です。</string>
+	<string name="SDCardRemoved">SDカードが装着されていません。</string>
+	<string name="SDCardShared">SDカードが装着されていますが、PCなどにマウント中です。</string>
+	<string name="SDCardBadRemoval">SDカードのアンマウントをする前に、取り外しました。</string>
+	<string name="SDCardChecking">SDカードのチェック中です。</string>
+	<string name="SDCardNOFS">SDカードはブランクであるか、サポートされていないファイルシステムです。</string>
+	<string name="SDCardUnMountable">SDカードは装着されていますが、マウントすることができません。</string>
+	<string name="SDCardUnMounted">SDカードは存在されていますが、マウントすることができません。</string>
+	<string name="SDCardUnknownError">SDカードは利用できません。</string>
+
+</resources>

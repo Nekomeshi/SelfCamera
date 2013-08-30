@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RootFrameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <AbsoluteLayout
+ 		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+		<view class="com.nekomeshi312.selfcamera.SelfPreview"
+			android:id="@+id/PreviewSurfaceView"
+			android:layout_width="fill_parent"
+   			android:layout_height="fill_parent"
+   			android:layout_marginLeft = "20dip"/>
+ 		<view class="com.nekomeshi312.selfcamera.FaceMarkView"
+			android:id="@+id/FaceMarkView"
+			android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"/>
+    </AbsoluteLayout>
+	<RelativeLayout
+    	android:layout_width="fill_parent"
+   	 	android:layout_height="fill_parent">
+   	 	<LinearLayout 
+			android:id="@+id/ModeButtonLayout" 
+			android:layout_height="wrap_content"
+			android:layout_width= "fill_parent" 
+  			android:orientation="horizontal" 
+  			android:layout_alignParentTop="true">
+			<Button
+        		android:id="@+id/ResolutionButton"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/button_resolution"
+				android:textColor="#FFFFFFFF"
+        		android:text="-----">
+    		</Button>
+			<Button
+        		android:id="@+id/FlashModeButton"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF"
+        		android:background="@drawable/button_flashmode"
+        		android:text="-----">
+    		</Button>
+    		<Button
+        		android:id="@+id/WhiteBalanceButton"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF"
+        		android:background="@drawable/button_whitebalance"
+        		android:text="-----">
+    		</Button>
+    		<Button
+        		android:id="@+id/AngleButton"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF"
+        		android:background="@drawable/button_angle"
+        		android:text="-----">
+    		</Button>
+		</LinearLayout>	
+		
+    	<LinearLayout 
+			android:id="@+id/ExposurecompensationBarLayout" 
+			android:layout_height="fill_parent"
+			android:layout_width= "wrap_content" 
+         	android:layout_alignParentRight="true"
+        	android:layout_above="@+id/ZoomBarLayout"
+        	android:layout_below="@+id/ModeButtonLayout"
+        	android:gravity="center_vertical|center_horizontal"
+  			android:orientation="vertical"
+  			android:baselineAligned="true" >
+			<Button 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/button_exposure_up" 
+				android:id="@+id/ExposurecompensationButtonUp"
+				android:layout_marginBottom="15dip"/>	
+			<com.nekomeshi312.selfcamera.VerticalSeekBar2
+				android:layout_width="26dip"
+				android:layout_height="100dip"		
+	    		android:progressDrawable="@drawable/progress_vertical"	
+	    		android:thumb="@drawable/seek_thumb"
+				android:id="@+id/ExposurecompensationBar"/>
+			<Button 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@drawable/button_exposure_down" 
+				android:id="@+id/ExposurecompensationButtonDown"
+				android:layout_marginTop="15dip"/>
+		</LinearLayout>	
+		
+    	<LinearLayout 
+			android:id="@+id/ZoomBarLayout" 
+			android:layout_height="wrap_content"
+			android:layout_width= "fill_parent" 
+  			android:orientation="horizontal" 
+        	android:baselineAligned="true"
+        	android:gravity="left|center_vertical"
+			android:layout_alignParentBottom="true">
+			<Button 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@android:drawable/btn_minus" 
+				android:id="@+id/ZoomButtonDown" />
+			<com.nekomeshi312.selfcamera.SeekBar2
+				android:layout_width="230dip" 
+				android:layout_height="wrap_content" 
+				android:id="@+id/ZoomBar"
+				android:scrollbarStyle="insideInset" 
+				android:fitsSystemWindows="true" 
+				android:indeterminate="false" 
+				android:paddingLeft="15dip"
+				android:paddingRight="15dip"/>
+			<Button 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:background="@android:drawable/btn_plus" 
+				android:id="@+id/ZoomButtonUp" />
+		</LinearLayout>
+    	<Button
+        	android:id="@+id/btn4"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:text="button4"
+        	android:layout_alignParentLeft="true"
+			android:layout_above="@+id/ZoomBarLayout"
+        	android:layout_below="@+id/ModeButtonLayout"
+        	android:visibility="invisible">
+    	</Button>
+	</RelativeLayout>
+</FrameLayout>
